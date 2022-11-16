@@ -1,0 +1,131 @@
+h1 {
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.5;
+    text-align: left;
+    font-size: 6px;
+    color: #fff;
+}
+
+h3 {
+    font-family: 'Montserrat-bold', sans-serif;
+    font-weight: 200;
+    font-size: 100px;
+
+}
+.download-btn{
+    margin-right: 40px;
+}
+
+.navbar {
+    margin-bottom: 100px;
+
+}
+.btn{
+    
+    margin-top: 30px;
+}
+
+.navbar-brand {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: xx-large
+}
+
+.container-fluid {
+    padding: 10px 30px;
+}
+
+#title {
+    background-color: #B3FFAE;
+    padding: 7% 12%;
+
+}
+
+#features {
+    padding: 7% 12%;
+    position: relative;
+    background-color: #fff;
+
+
+
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.featureP {
+    color: grey;
+    font-size: 20px;
+    margin-top: 3%;
+    background-color: #fff;
+}
+
+.title-img {
+    width: 20%;
+    position: absolute;
+    right: 20%;
+
+    transform: rotate(25deg);
+
+
+
+}
+#testimonials{
+    background-color:#B3FFAE ;
+    padding: 7% 12%;
+    text-align: center;
+}
+.carousel-img1{
+    height: 200px;
+    width:200px;
+    border-radius: 100%;
+    
+    
+}
+
+
+
+.icon {
+    margin-bottom: 5%;
+
+}
+
+.icon:hover {
+    color: #FF4c68;
+}
+
+
+
+
+#pricing {
+    padding: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+#dineing{
+    background-color:#B3FFAE ;
+    padding: 7% 12%;
+    text-align: center;
+
+}
+#footer{  
+    padding: 7% 12%;
+    text-align: center;
+
+}
+
+@media (max-width:1000px) {
+    #title {
+        text-align: center;
+    }
+
+    img {
+        position: static;
+        transform: rotate(0);
+
+    }
+}
